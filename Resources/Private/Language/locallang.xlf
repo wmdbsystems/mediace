@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+    <file t3:id="1445518806" source-language="en" datatype="plaintext" original="messages" date="2015-10-22T14:22:32Z" product-name="friendsoftypo3/mediace">
+        <header/>
+        <body>
+            <trans-unit id="editIcon.multimedia">
+                <source>Edit multimedia element</source>
+            </trans-unit>
+            <trans-unit id="tt_content.CType.item.multimedia">
+                <source>Multimedia</source>
+            </trans-unit>
+            <trans-unit id="tt_content.CType.item.media">
+                <source>Media</source>
+            </trans-unit>
+            <trans-unit id="tt_content.palette.multimediafiles">
+                <source>Media</source>
+            </trans-unit>
+            <trans-unit id="tt_content.multimedia">
+                <source>Media File</source>
+            </trans-unit>
+            <trans-unit id="tt_content.multimedia_formlabel">
+                <source>Selected Media File</source>
+            </trans-unit>
+            <trans-unit id="tt_content.bodytext">
+                <source>Parameters</source>
+            </trans-unit>
+            <trans-unit id="newContentElementWizard.media.title">
+                <source>Media</source>
+            </trans-unit>
+            <trans-unit id="newContentElementWizard.media.description">
+                <source>Inserts a media element like a Flash animation, audio file or video clip.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
