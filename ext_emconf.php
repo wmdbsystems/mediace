@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "mediace".
  *
- * Auto generated 22-10-2015 21:30
+ * Auto generated 15-12-2015 21:30
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -15,13 +15,9 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'The media functionality from TYPO3 6.2 and earlier can be found here. This extension provides ContentObjects and Content Elements.',
 	'category' => 'fe',
 	'shy' => 1,
-	'version' => '7.6.0',
-	'dependencies' => '',
-	'conflicts' => '',
+	'version' => '7.6.1',
 	'priority' => '',
 	'loadOrder' => '',
-	'TYPO3_version' => '7.5.0-7.9.99',
-	'PHP_version' => '',
 	'module' => '',
 	'state' => 'stable',
 	'uploadfolder' => 1,
@@ -29,11 +25,20 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearcacheonload' => '',
 	'lockType' => '',
-	'author' => 'TYPO3 Community - Friends of TYPO3',
+	'author' => 'Friends of TYPO3',
 	'author_email' => 'friendsof@typo3.org',
 	'author_company' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
+	'constraints' => array(
+		'depends' => array(
+			'typo3' => '7.6.0-7.6.99',
+		),
+		'conflicts' => array(
+		),
+		'suggests' => array(
+		),
+	),
 );
 
 ?>
